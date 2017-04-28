@@ -1,0 +1,32 @@
+.intro {
+  background-color: rgba(0, 0, 0, 0.3);
+  background-image: linear-gradient(rgba(138, 186, 86, 0), rgba(138, 186, 86, 0.3) 95%),
+                    url("bubbles.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll, fixed;
+  background-position: 0 0%, center top;
+
+  color: #fff;
+  padding: 80px;
+  margin-top: 80px;
+}
+
+.intro .text-lead {
+  color: #d3d3d3;
+  max-width: 70%;
+  margin: 0 15%;
+}
+
+.intro-list {
+  font-size: 26px;
+  margin-bottom: 40px;
+}
+
+.intro-list-item {
+  list-style: none;
+  padding: 0 20px;
+  margin: 0;
+  display: inline-block;
+  font-style: italic;
+}
