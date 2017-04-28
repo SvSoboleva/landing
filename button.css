@@ -18,13 +18,23 @@
   color: #fff;
 }
 
+.button-blue:hover {
+  background: #3983dc;
+  transition: all ease .3s;
+}
+
 .button-gray {
   background: #aaa;
   color: #fff;
 }
 
 .button-darkkhaki {
-  background: darkkhaki;
+  background: #BDB76B;
   color: #fff;
+}
+
+.button-darkkhaki:hover {
+  background: #9D974B;
+  transition: all ease .3s;
 }
 
